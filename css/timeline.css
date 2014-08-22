@@ -176,7 +176,7 @@ body, html { font-size: 100%; padding: 0; margin: 0;}
 	background-repeat: no-repeat!important;
 	height: 140px;
 	width: 140px;
-
+	background-color: #88101D!important;
 }
 .cbp_2 {
 	background-image: url('../img/tech-services.png')!important;
@@ -184,6 +184,7 @@ body, html { font-size: 100%; padding: 0; margin: 0;}
 	background-repeat: no-repeat;
 	height: 140px;
 	width: 140px;
+	background-color: #88101D!important;
 
 }
 .cbp_3 {
@@ -192,7 +193,7 @@ body, html { font-size: 100%; padding: 0; margin: 0;}
 	background-repeat: no-repeat;
 	height: 140px;
 	width: 140px;
-	background-color: rgba(226,11,71,1)!important;
+	background-color: #88101D!important;
 }
 .cbp_4 {
 	background-image: url('../img/tech-services.png')!important;
@@ -200,21 +201,25 @@ body, html { font-size: 100%; padding: 0; margin: 0;}
 	background-repeat: no-repeat;
 	height: 140px;
 	width: 140px;
+	background-color: #88101D!important;
 }
 .cbp_5 {
-	background-image: url('../img/tech-services.png')!important;
-	background-position: 0 -560px!important;
+	background-image: url('../img/anchor-256.png')!important;
+	background-size: 100px 100px;
+	background-position:center;		
 	background-repeat: no-repeat;
 	height: 140px;
 	width: 140px;
+	background-color: white!important;
 }
 .cbp_6 {
-	background-image: url('../img/tech-services.png')!important;
-	background-position: 0 -700px!important;
+	background-image: url('../img/gear-256.png')!important;
+	background-size: 100px 100px;
+	background-position:center;	
 	background-repeat: no-repeat;
 	height: 140px;
 	width: 140px;
-	background-color: rgba(226,11,71,1)!important;
+	background-color: white!important;
 }
 .cbp_7 {
 	background-image: url('../img/tech-services.png')!important;
@@ -222,7 +227,7 @@ body, html { font-size: 100%; padding: 0; margin: 0;}
 	background-repeat: no-repeat;
 	height: 140px;
 	width: 140px;
-	background-color: rgba(226,11,71,1)!important;
+	background-color: #88101D!important;
 }
 .cbp_8 {
 	background-image: url('../img/tech-services.png')!important;
@@ -230,7 +235,7 @@ body, html { font-size: 100%; padding: 0; margin: 0;}
 	background-repeat: no-repeat;
 	height: 140px;
 	width: 140px;
-	background-color: rgba(226,11,71,1)!important;
+	background-color: #88101D!important;
 }
 .cbp_9 {
 	background-image: url('../img/tech-services.png')!important;
@@ -238,21 +243,25 @@ body, html { font-size: 100%; padding: 0; margin: 0;}
 	background-repeat: no-repeat;
 	height: 140px;
 	width: 140px;
+	background-color: #88101D!important;
 }
 .cbp_10 {
-	background-image: url('../img/tech-services.png')!important;
-	background-position: 0 -1400px!important;
+	background-image: url('../img/anchor-256.png')!important;
+	background-size: 100px 100px;
+	background-position:center;	
 	background-repeat: no-repeat;
 	height: 140px;
 	width: 140px;
-	background-color: rgba(226,11,71,1)!important;
+	background-color: white!important;
 }
 .cbp_11 {
-	background-image: url('../img/tech-services.png')!important;
-	background-position: 0 -1540px!important;
+	background-image: url('../img/anchor-256.png')!important;
+	background-size: 100px 100px;
+	background-position:center;	
 	background-repeat: no-repeat;
 	height: 140px;
 	width: 140px;
+	background-color: white!important;
 }
 .cbp_13 {
 	background-image: url('../img/tech-services.png')!important;
@@ -260,7 +269,7 @@ body, html { font-size: 100%; padding: 0; margin: 0;}
 	background-repeat: no-repeat;
 	height: 140px;
 	width: 140px;
-	background-color: rgba(226,11,71,1)!important;
+	background-color: #88101D!important;
 }
 
 .bwn

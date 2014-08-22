@@ -70,7 +70,7 @@ header img { float: left; margin-left: 10px; }
 /* NAVIGATION
 ============================== */
 .navbar ul.nav { padding-top: 15px; }
-.navbar ul.nav li a { color:#FFCC00; position:relative; display:inline-block; font-weight: 800; text-decoration:none; font-size:12px; text-transform:uppercase; text-decoration:none; display:block;
+.navbar ul.nav li a { color:#BFBFBF; position:relative; display:inline-block; font-weight: 800; text-decoration:none; font-size:12px; text-transform:uppercase; text-decoration:none; display:block;
    -webkit-transition: all 300ms linear;
    -moz-transition: all 300ms linear;
    -o-transition: all 300ms linear;
@@ -84,7 +84,7 @@ header img { float: left; margin-left: 10px; }
 .navbar ul.nav li.active a,
 .navbar ul.nav li.active a:hover,
 .navbar ul.nav li a:hover,
-.navbar ul.nav li a.selected { color:rgba(112,14,25,1); text-decoration: none;
+.navbar ul.nav li a.selected { color:#88101D; text-decoration: none;
    background: none;
    -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow:none;
 }
@@ -103,7 +103,7 @@ header img { float: left; margin-left: 10px; }
 
 #home .container { width: 100%; } 
 #home .containerblack {
-	background-color: rgba(226,11,71,1);
+	background-color: white;
 	width: 100%;
 	height: 350px;
 	padding: 50px 0 50px 0; 
@@ -111,9 +111,10 @@ header img { float: left; margin-left: 10px; }
 	position: relative;
 	  }
 
-ul.homenav.left {position: absolute; width: 225px; top: 120px; left: 50%; margin-left: -270px; }
-ul.homenav.right {position: absolute; width: 225px; top: 120px; left: 50%; margin-left: 115px; }
-ul.homenav li { list-style:none; display: inline-block; margin: 0 10px 0 10px;}
+ul.homenav.left {position: absolute; width: 251px; top: 120px; left: 50%; margin-left: -270px; }
+ul.homenav.right {position: absolute; width: 251px; top: 120px; left: 50%; margin-left: 115px; }
+ul.homenav li { list-style:none; display: inline-block; margin: 0 10px 0 0px;} 
+/* in the above 10 px left margin by default*/
 ul.homenav li a { color:#BFBFBF; font-weight: 800; text-decoration:none; font-size:12px; text-transform:uppercase; text-decoration:none;
    -webkit-transition: all 300ms linear;
    -moz-transition: all 300ms linear;
@@ -123,7 +124,7 @@ ul.homenav li a { color:#BFBFBF; font-weight: 800; text-decoration:none; font-si
    background: none;
    -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow:none;
 }
-ul.homenav li a:hover{ color:#fff; text-decoration: none;
+ul.homenav li a:hover{ color:#88101D; text-decoration: none;
    background: none;
    -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow:none;
 }
@@ -133,7 +134,7 @@ ul.homenav li a:hover{ color:#fff; text-decoration: none;
 	/* SLIDER */
 	#slider  { width: 100%; font-size: 38px; margin-top:20px; }
 	#slider .slide { width: 100%; height: 70px; font-weight: 300; line-height: 70px; color: #BFBFBF; text-align: center; letter-spacing: -1px;}
-	#slider .slide strong { font-weight: 800; color: white;}
+	#slider .slide strong { font-weight: 800; color: #88101D;}
 	
 	/* ARROW DOWN */	
 	a#arrow_down2 {
@@ -141,7 +142,7 @@ ul.homenav li a:hover{ color:#fff; text-decoration: none;
 		padding: 12px;
 		text-align: center;
 		font-size: 26px;
-		border: 3px solid rgba(226,71,11,1);
+		border: 3px solid #5C0A14;
 		border-radius: 6px;
 		box-shadow: none;
 		background: #BFBFBF;
@@ -154,14 +155,14 @@ ul.homenav li a:hover{ color:#fff; text-decoration: none;
 		-o-transition: all 0.3s ease-in-out;
 		transition: all 0.3s ease-in-out;
 	}	
-	a#arrow_down2:hover { background-color: rgba(226,71,11,1);color: #fff; }
+	a#arrow_down2:hover { background-color: #88101D;color: #fff; }
 	
 	a#arrow_down1 {
 			position: absolute; width: 280px; bottom: 10%; left:37%; margin-left: -150px;
 			padding: 12px;
 			text-align: center;
 			font-size: 26px;
-			border: 3px solid rgba(226,71,11,1);
+			border: 3px solid #5C0A14;
 			border-radius: 6px;
 			box-shadow: none;
 			background: #BFBFBF;
@@ -174,7 +175,7 @@ ul.homenav li a:hover{ color:#fff; text-decoration: none;
 			-o-transition: all 0.3s ease-in-out;
 			transition: all 0.3s ease-in-out;
 		}	
-		a#arrow_down1:hover { background-color: rgba(226,71,11,1);color: #fff;}
+		a#arrow_down1:hover { background-color: #88101D;color: #fff;}
 
 /* WORKS
 ============================== */
@@ -449,7 +450,7 @@ display:none;
 	/* PERSON */
 	.person 		{ width: 100%; background: #fff; margin-bottom: 8px; padding-bottom: 8px; position: relative; text-align: center; }
 		.person h2 			{ font-size: 16px; margin: 5px 0; letter-spacing: -1px;}
-		.person .position 	{ display: inline-block; padding: 3px 5px; background: rgba(112,14,25,1); color: #fff; font-size: 14px; text-transform: uppercase; }
+		.person .position 	{ display: inline-block; padding: 3px 5px; background: #88101D; color: #fff; font-size: 14px; text-transform: uppercase; }
 		.person ul a,
 		.person ul a:hover	{ text-decoration: none; }
 		.person p a { font-size:12px; }
@@ -545,7 +546,7 @@ display:none;
 .clear {clear:both;}
 
 .container.txtblock {background:#23231F url('../img/bg_block2.jpg') left center no-repeat; width:100%; padding: 80px 0 80px 0; border-bottom: 1px solid #e3e3e3;}
-.container.txtblock p.lead {background: url('../img/icon-apos.png') 0px 12px no-repeat; color:rgba(226,11,71,1); font-weight: 300; font-size: 28px; line-height: 52px; letter-spacing: -1px; max-width:900px; margin: 0 auto; text-align: left; font-family: 'Merriweather', Georgia, serif; padding: 0 0 0 100px;}
+.container.txtblock p.lead {background: none 0px 12px no-repeat; color:rgba(226,11,71,1); font-weight: 300; font-size: 28px; line-height: 52px; letter-spacing: -1px; max-width:900px; margin: 0 auto; text-align: left; font-family: 'Merriweather', Georgia, serif; padding: 0 0 0 100px;}
 .container.txtblock a {color:#fff; font-weight: 400;}
 .container.txtblock a:hover {color:#FFCC00; text-decoration:none;}
 .container.txtblock.nrtwo {background:#23231F url('../img/bg_block3.jpg') left center no-repeat;}
@@ -679,7 +680,7 @@ footer  { width: 100%; padding: 20px 0; background: #333; text-align: center; }
 	-webkit-font-smoothing: antialiased;
 	position: absolute;
 	color: #fff;
-	background: #FFCC00;
+	
 
 	border-radius: 50%;
 	box-shadow: 0 0 0 8px #dcdcdc;
